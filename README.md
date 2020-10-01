@@ -3,7 +3,7 @@
 ## Description
 The Budget Tracker App allows users to log their deposits and withdraws and correspondingly generates a transcation history chart. This application is a Progressive Web App, meaning that the user is able to download the application onto their homescreen and continue to log transactions while offline. These transcations will be recorded into the database once network is again available.
 
-![Screenshot](public/assets/screenshot.png)
+<img src="public/assets/screenshot.png" width="450">
 
 ## Deployed Link on Heroku:
 https://budget-tracker-application.herokuapp.com/
