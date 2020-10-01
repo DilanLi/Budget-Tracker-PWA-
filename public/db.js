@@ -1,10 +1,3 @@
-const indexedDB =
-window.indexedDB ||
-window.mozIndexedDB ||
-window.webkitIndexedDB ||
-window.msIndexedDB ||
-window.shimIndexedDB;
-
 let db;
 // create a new db request for a "budget" database.
 const request = indexedDB.open("budget", 1);
@@ -29,7 +22,6 @@ request.onerror = function(event) {
 };
 
 function saveRecord(record) {
-  console.log("Transaction received:", record)
   // create a transaction on the pending db with readwrite access
   const transaction = db.transaction(["pending"], "readwrite");
 
@@ -75,3 +67,4 @@ function checkDatabase() {
 
 // listen for app coming back online
 window.addEventListener("online", checkDatabase);
+
