@@ -14,7 +14,7 @@
   "name": "Offline Budget Tracker",
   "short_name": "Budget Tracker",
   "display": "standalone",
-  "start_url": "/api/transaction",
+  "start_url": "/",
   "description": "An application that allows you to track your deposits, withdraws and balances",
   "background_color": "#01579b",
   "theme_color": "#ffffff",

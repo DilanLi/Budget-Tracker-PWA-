@@ -1,5 +1,3 @@
-import { saveRecord } from "/db.js";
-
 let transactions = [];
 let myChart;
 
@@ -140,7 +138,7 @@ function sendTransaction(isAdding) {
     // fetch failed, so save in indexed db
     saveRecord(transaction);
     console.log("saved record in indexDB")
-
+    console.log("err", err) 
     // clear form
     nameEl.value = "";
     amountEl.value = "";

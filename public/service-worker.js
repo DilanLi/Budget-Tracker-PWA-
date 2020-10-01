@@ -1,6 +1,7 @@
 const CACHE_NAME = "static-cache-budget-tracker";
 const DATA_CACHE_NAME = "data-cache-budget-tracker";
 const FILES_TO_CACHE = [
+  "/",
   "/index.html",
   "/dist/manifest.json",
   "/styles.css",
